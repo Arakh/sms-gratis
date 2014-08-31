@@ -1,0 +1,133 @@
+.title{
+    color: #ffffff;
+}
+
+.ui-navbar-custom .ui-btn .ui-btn-inner{
+	font-size: 11px!important;
+	padding-top: 24px!important;
+	padding-bottom: 0px!important;
+}
+
+.ui-navbar-custom .ui-btn .ui-icon{
+	width: 30px!important;
+	height: 20px!important;
+	margin-left:-15px!important;
+	box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+	-webkit-border-radius: none!important;
+	border-radius: none!important;
+}
+
+ul{
+	list-style: none;
+}
+
+.img{
+	text-align: center;
+}
+
+.btn-img{
+	width: 80px;
+	height: 60px;
+	background-color: #ff0000;
+	border: 1px solid #000;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+.menu_sms > li{
+	display: inline;
+}
+
+li#inbox{
+	padding: 0 20px 0 20px;
+	border-right: 1px solid #ffffff;
+}
+
+#nomor{
+    font-size: medium;
+    font-weight: bold;
+}
+
+#list-inbox, #list-schedule{
+	padding: 0;
+}
+
+.list-inbox, .list-schedule{
+	padding: 0;
+	margin: 0;
+}
+
+.list-inbox > li, .list-schedule > li{
+	padding-left: 10px;
+	line-height: 60px;
+	border-bottom: 1px solid #000000;
+}
+
+li#create{
+	padding: 0 30px 0 30px;
+	border-right: 1px solid #ffffff;
+}
+
+.menu_create > li {
+	display: inline;
+}
+
+#tabel-menu td{
+    padding: 7px;
+}
+
+.help-desc p, .help-desc h4{
+	padding: 0;
+	margin: 0;
+}
+
+.dev-desc p, .dev-desc h4{
+	padding: 0x;
+	margin: 2px;
+}
+
+#list-help, #developer{
+	padding: 0;
+}
+
+.help-desc, .dev-desc {
+	vertical-align: top;
+}
+
+#twitter-feed{
+    background-color: #dddddd;
+}
+
+#twit{
+    padding: 0;
+    margin: 0;
+}
+
+#list-twit{
+    padding: 5px 0px 5px 0px ;
+    border-bottom: 1px solid #aaaaaa;    
+}
+
+#list-twit a{
+    color: #ff2a2c;
+}
+
+#list-twit td{
+    vertical-align: top;
+}
+
+#konten-reader{
+	background-color: #dddddd;
+}
+
+#lis{
+	padding: 10px 20px;
+	border-bottom: 1px solid #ffffff;
+}
+
+#lis a{
+	text-decoration: none;
+	color: #222222;
+}
