@@ -14,19 +14,33 @@
   <link href="css/ratchet.min.css" rel="stylesheet">
   <script src="js/ratchet.min.js"></script>
   <style>
-    .bar{
-      background-color: #428bca;
-      border-bottom: none;
-      color: #fff;
-      box-shadow: 0 5px #367BB6;
-    }
-    .bar > .title{
-      color: #fff;
-    }
-    .input-row{
-      margin-bottom:20px;
-      padding-bottom: 50px;
-    }
+  .bar {
+    background-color: #428bca;
+    border-bottom: none;
+    color: #fff;
+    box-shadow: 0 5px #367BB6;
+  }
+  .bar > .title {
+    color: #fff;
+  }
+  .input-row {
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+  }
+  ::-webkit-input-placeholder {
+    color: #888;
+  }
+  :-moz-placeholder {
+    /* Firefox 18- */
+    color: #888;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #888;
+  }
+  :-ms-input-placeholder {
+    color: #888;
+  }
   </style>
 </head>
 
@@ -51,7 +65,7 @@
   //-->
   </script>
 
- <!--  <header class="bar bar-nav">
+  <!--  <header class="bar bar-nav">
     <h1 class="title">SMS GRATIS</h1>
   </header> -->
 
@@ -65,8 +79,8 @@
       </div>
 
       <div class="input-row">
-        <label>Pesan</label>
-        <input type="text" placeholder="Pesan Anda" rows="4" class="form-control" cols="20" onKeyPress=check_length(this.form); onKeyDown=check_length(this.form); name=Text>
+        <textarea type="text"  placeholder="Pesan Anda" rows="4" class="form-control" onKeyPress=check_length(this.form); onKeyDown=check_length(this.form); name=Text>
+        </textarea>
       </div>
 
       <div class="input-row">
