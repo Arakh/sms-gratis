@@ -23,6 +23,10 @@
     .bar > .title{
       color: #fff;
     }
+    .input-row{
+      margin-bottom:20px;
+      padding-bottom: 50px;
+    }
   </style>
 </head>
 
@@ -47,9 +51,9 @@
   //-->
   </script>
 
-  <header class="bar bar-nav">
+ <!--  <header class="bar bar-nav">
     <h1 class="title">SMS GRATIS</h1>
-  </header>
+  </header> -->
 
   <div class="content" style="margin-top:20px">
     <form class="input-group" method="post" enctype="multipart-form-data" name="my_form" onsubmit="clearTextBoxCounter()" action="http://widget.sms.web.id/kirim.php">
@@ -66,7 +70,7 @@
       </div>
 
       <div class="input-row">
-        <label for="left">Sisa Karakter</label>
+        <label for="left">Sisa</label>
         <input value=160 name=text_num disabled="disabled" size="2" readonly="readonly">
       </div>
       <button id="saveForm" class="btn btn-block btn-primary btn-outlined btTxt" type="submit" value="Send SMS" name="TOMBOL">Kirim</button>
