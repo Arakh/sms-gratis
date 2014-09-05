@@ -41,6 +41,24 @@
   :-ms-input-placeholder {
     color: #888;
   }
+  .btn-outlined.btn-primary {
+    color: #ff1819;
+  }
+
+  .btn-primary{
+    border-color: #ff1819;
+  }
+
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary:hover,
+  .btn-primary:visited {
+    background: #ff1919;
+    color: #ffffff;
+    border-color: #ff1919;
+    outline: none;
+  }
+
   </style>
 </head>
 
@@ -79,7 +97,7 @@
       </div>
 
       <div class="input-row">
-        <textarea  placeholder="Tulis Pesan Anda Disini ..." value="" class="form-control" onKeyPress=check_length(this.form); onKeyDown=check_length(this.form); name=Text></textarea>
+        <textarea placeholder="Tulis Pesan Anda Disini ..." value="" class="form-control" onKeyPress=check_length(this.form); onKeyDown=check_length(this.form); name=Text></textarea>
       </div>
 
       <div class="input-row">
