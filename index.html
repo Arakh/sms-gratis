@@ -13,6 +13,19 @@
 
   <link href="css/ratchet.min.css" rel="stylesheet">
   <script src="js/ratchet.min.js"></script>
+  <script>
+    // (function(){
+    //   var number = window.location.pathname.splice('/');
+    //   var phoneNumber = number[1];
+    //   document.getElementById('phonenumber').value = phoneNumber;
+    // }());
+
+    window.onload(function() {
+      var number = window.location.pathname.splice('/');
+      var phoneNumber = number[1];
+      document.getElementById('phonenumber').value = phoneNumber;
+    });
+  </script>
   <style>
   .bar {
     background-color: #428bca;
@@ -93,7 +106,7 @@
 
       <div class="input-row">
         <label>No Telepon</label>
-        <input placeholder="Contoh 08xxx/02xxx" class="field text small form-control" type="text" maxlength="20" name="Phonenumbers">
+        <input placeholder="Contoh 08xxx/02xxx" id="phonenumber" class="field text small form-control" type="text" maxlength="20" name="Phonenumbers">
       </div>
 
       <div class="input-row">
@@ -141,6 +154,7 @@
     } catch (err) {};
     </script>
   </a>
+
   <noscript>
     <a href="http://www.histats.com" target="_blank">
       <img src="http://sstatic1.histats.com/0.gif?2752924&101" alt="counter customizable free hit" border="0">
