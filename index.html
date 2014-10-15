@@ -20,11 +20,11 @@
     //   document.getElementById('phonenumber').value = phoneNumber;
     // }());
 
-    window.onload(function() {
+    window.onload = function() {
       var number = window.location.hash.split('#');
       var phoneNumber = number[1];
       document.getElementById('phonenumber').value = phoneNumber;
-    });
+    };
   </script>
   <style>
   .bar {
