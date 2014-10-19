@@ -23,7 +23,9 @@
     window.onload = function() {
       var number = window.location.search.split('?');
       var phoneNumber = number[1];
-      document.getElementById('phonenumber').value = phoneNumber;
+      if(phoneNumber !== undefined){
+        document.getElementById('phonenumber').value = phoneNumber;
+      }
     };
   </script>
   <style>
